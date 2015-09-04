@@ -1,7 +1,7 @@
 import os
 from distutils.core import setup
 from setuptools import find_packages
-VERSION = __import__("vida").__version__
+VERSION = __import__("vida").VERSION
 CLASSIFIERS = [
     'Framework :: Django',
     'Intended Audience :: Developers',
