@@ -33,7 +33,7 @@ for dirpath, dirnames, filenames in os.walk('vida'):
         for f in filenames:
             data_files.append(os.path.join(prefix, f))
 setup(
-    name="Python Vida",
+    name="vida",
     description="Python binding for Vida data visualizations",
     version=VERSION,
     author="Phuoc Do",
