@@ -3,7 +3,6 @@ from distutils.core import setup
 from setuptools import find_packages
 VERSION = __import__("vida").VERSION
 CLASSIFIERS = [
-    'Framework :: Django',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: BSD License',
     'Operating System :: OS Independent',
