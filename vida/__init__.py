@@ -1,3 +1,3 @@
-VERSION = '0.1'
+from vida import *
 
-import vida
+VERSION = '0.2'
